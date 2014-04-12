@@ -1,0 +1,160 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:300;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    min-height:100%;
+}
+
+html{
+    background-color:#acacac;
+    background-position: 80% 20%;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+	background-image: radial-gradient(center top, ellipse cover, #ffffff, #acacac);
+	background-image: -o-radial-gradient(center top, ellipse cover, #ffffff, #acacac);
+	background-image: -ms-radial-gradient(center top, ellipse cover, #ffffff, #acacac);
+	background-image: -moz-radial-gradient(center top, ellipse cover, #ffffff, #acacac);
+	background-image: -webkit-radial-gradient(center top, ellipse cover, #ffffff, #acacac);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#acacac',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+body{
+
+}
+
+.container{
+    max-width: 760px;
+    padding:10px 20px;
+    margin: 0px auto;
+}
+
+header{
+    padding:20px 0px;
+}
+
+    h1{
+        font-size:30px;
+        font-weight:700;
+        color:#777;
+    }
+    
+    h1 a{
+        text-decoration:none;
+        color:#777;
+    }
+
+    h1 a,
+    h1 a *{
+        line-height:30px;
+        vertical-align:bottom;
+    }    
+
+    h1 span{
+        font-size:22px;
+        color:#666;
+        font-weight:300;
+    }
+
+main{
+    min-height:400px;
+    padding:0px 0px 0px 0px;
+}
+
+footer{
+    padding:20px 0px;
+}
+
+footer a{
+    font-size:12px;
+    color:#1f4f74;
+}
+
+form input, 
+form textarea{
+    font-family: Helvetica, Arial, sans-serif;
+    border:1px solid #60a6dc;
+    padding:5px;
+    font-size:13px;
+    font-weight:normal;
+}
+
+.b, strong{
+    font-weight:700;
+}
+
+p{
+    margin:0px 0px 18px 0px;
+}
+
+.ac{
+    text-align:center;
+}
+
+.pad{
+    padding:10px;
+}
+
+.pad-tb{
+    padding:10px 0;
+}
+
+.pad-top{
+    padding-top:10px;
+}
+.pad-right{
+    padding-right:10px;
+}
+.pad-bottom{
+    padding-bottom:10px;
+}
+.pad-left{
+    padding-left:10px;
+}
+
+.click{
+    cursor:pointer;
+}
+
+.small{
+    font-size:11px;
+}
+
+.color-grey{
+    color:#aaa;
+}
+
+.row {
+    clear: both;
+    width: 100%;
+}
+    .row:after {
+        content: " ";
+        display: block;
+        height: 0;
+        font-size: 0;
+        clear: both;
+        visibility: hidden;
+    }
+
+.one.half{
+    width:50%;
+    float:left;
+}
+
+@media (max-width: 360px) {
+    
+    .one.half{
+        width:100%;
+        float:none;
+    }
+
+}

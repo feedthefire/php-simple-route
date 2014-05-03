@@ -62,15 +62,15 @@
     <!-- <meta name="msapplication-TileColor" content="#000"> -->
 
     <!-- Canonical and open graph -->
-    <link rel="image_src" href="//<?=$_SERVER['HTTP_HOST']?>/img/icon-144x144.png" />
-    <link rel="canonical" href="http://<?=$_SERVER['HTTP_HOST']?>/" />
+    <link rel="image_src" href="//<?=$host?>/img/icon-144x144.png" />
+    <link rel="canonical" href="http://<?=$host?>/" />
 
     <meta property="og:locale" content="en_US" />
-    <meta property="og:site_name" content="Drone Tone Tool" />
-    <meta property="og:description" content="Drone Tone Tool" />
-    <meta property="og:title" content="Drone Tone Tool" />
-    <meta property="og:url" content="https://<?=$_SERVER['HTTP_HOST']?>/" />
-    <meta property="og:image" content="//<?=$_SERVER['HTTP_HOST']?>/img/icon-144x144.png" />
+    <meta property="og:site_name" content="Mini Route PHP" />
+    <meta property="og:description" content="Mini Route PHP" />
+    <meta property="og:title" content="Mini Route PHP" />
+    <meta property="og:url" content="https://<?=$host?>/" />
+    <meta property="og:image" content="//<?=$host?>/img/icon-144x144.png" />
 
     <meta http-equiv="cleartype" content="on">
 
